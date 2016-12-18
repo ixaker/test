@@ -1,0 +1,77 @@
+html {
+    height: 100%; //позволит растянуть сайт на 100% высоты
+    width: 100%;
+    background-color: #eee;
+}
+
+body{
+				margin:0;
+				-webkit-user-select:none;
+				font-family:Arial;
+				height: 100%;
+        width: 100%;
+				max-width: 640px;
+				margin: auto;
+			}
+
+.main{
+  /*background-color: #333;*/
+  height: 100%;
+  /*width: 500px;*/
+}
+
+.myHead{
+  /*background-color: #aaa;*/
+  /*height: 450px;*/
+}
+
+.title{
+  /*background-color: #FFF;*/
+  /*height: 50px;*/
+  font-size:30px;
+  text-align: center;
+  line-height:40px;
+  /*width: 500px;*/
+}
+
+.data{
+  font-size:20px;
+  height: 40px;
+  /*background-color: #FFF;*/
+  /*border: 1px outset black; /* Параметры границы */*/
+  width: 100%;
+}
+
+.name{
+  height: 100%;
+  display:inline-block;
+  width: 30%;
+  min-width: 130px;
+  /*font-size:10px;*/
+  line-height:38px;
+  text-align: right;
+}
+
+.value{
+  line-height:38px;
+  width: 50%;
+  min-width: 150px;
+  max-width: 50%;
+  display:inline-block;
+  height: 100%;
+}
+
+.inp{
+  width: 90%;
+  margin: auto;
+}
+
+.but{
+  margin-top: 8px;
+  /*position: inherit;*/
+  width: 100px;
+  /*margin-left: 50px;*/
+  margin-right: 10px;
+
+  float:right;
+}

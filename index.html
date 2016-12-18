@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Заявка на закупку</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <!-- <meta http-equiv="refresh" content="5"> -->
+</head>
+
+<body>
+    <div class="main">
+      <div class="myHead">
+        <div class="title">Заявка на закупку</div>
+
+        <div class="data">
+          <div class="name">Срок :</div>
+          <div class="value">
+            <input type="date" id="srok" name="calendar" class="inp">
+          </div>
+        </div>
+
+        <div class="data">
+          <div class="name">Заказчик :</div>
+          <div class="value">
+            <input type="text" id="client" class="inp">
+          </div>
+        </div>
+
+        <div class="data">
+          <div class="name">Менеджер :</div>
+          <div class="value">
+            <select class="inp" id="manager">
+              <option></option>
+            	<option>Викторовский Руслан Владимирович</option>
+            	<option>Ганзий Дарья Григорьевна</option>
+            	<option>Голуб Виталий Александрович</option>
+            	<option>Карнаушенко Юрий Викторович</option>
+              <option>Кулиуш Евгений Викторович</option>
+              <option>Падалка Анастасия Дмитриевна</option>
+              <option>Точицкий Леонид Анатольевич</option>
+              <option>Яровой Виталий</option>
+              <option>Полегенько Александр</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="data">
+          <div class="name">Материал :</div>
+          <div class="value">
+            <input type="text" class="inp" id="material">
+          </div>
+        </div>
+
+        <div class="data">
+          <div class="name">Количество :</div>
+          <div class="value">
+            <input type="text" class="inp" id="kolvo">
+          </div>
+        </div>
+
+        <div class="data">
+          <div class="name"> </div>
+          <div class="value">
+            <button  class="but" onclick="create()">Оформить</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+</body>
+
+</html>
