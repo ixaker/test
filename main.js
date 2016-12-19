@@ -40,6 +40,7 @@ function create() {
     }
 }
 
+//отправка данных на сервер
 function send(komanda, parametr) {
     var xmlhttp = getXmlHttp();
     xmlhttp.open("POST", server + EncodeStr(komanda) + '/' + EncodeStr(parametr) + '/' + EncodeStr("web"), true);
