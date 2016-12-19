@@ -10,6 +10,7 @@ function create() {
     var client = document.getElementById('client').value;
     var manager = document.getElementById('manager').value;
     var material = document.getElementById('material').value;
+    var izmerenie = document.getElementById('izmerenie').value;
     var kolvo = document.getElementById('kolvo').value;
 
     if (srok === '') {
@@ -20,6 +21,8 @@ function create() {
         alert("Заполните менеджера.");
     } else if (material === '') {
         alert("Заполните материал.");
+    } else if (izmerenie === '') {
+        alert("Заполните измерение.");
     } else if (kolvo === '') {
         alert("Заполните количество.");
     } else {
@@ -29,6 +32,7 @@ function create() {
         xml += ' клиент="' + client + '"';
         xml += ' менеджер="' + manager + '"';
         xml += ' материал="' + material + '"';
+        xml += ' измерение="' + izmerenie + '"';
         xml += ' количество="' + kolvo + '"';
         xml += '></zakupka>';
 
