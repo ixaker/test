@@ -15,30 +15,18 @@ body{
 			}
 
 .main{
-  /*background-color: #333;*/
   height: 100%;
-  /*width: 500px;*/
-}
-
-.myHead{
-  /*background-color: #aaa;*/
-  /*height: 450px;*/
 }
 
 .title{
-  /*background-color: #FFF;*/
-  /*height: 50px;*/
   font-size:30px;
   text-align: center;
   line-height:40px;
-  /*width: 500px;*/
 }
 
 .data{
   font-size:20px;
   height: 40px;
-  /*background-color: #FFF;*/
-  /*border: 1px outset black; /* Параметры границы */*/
   width: 100%;
 }
 
@@ -47,7 +35,6 @@ body{
   display:inline-block;
   width: 30%;
   min-width: 130px;
-  /*font-size:10px;*/
   line-height:38px;
   text-align: right;
 }
@@ -68,10 +55,7 @@ body{
 
 .but{
   margin-top: 8px;
-  /*position: inherit;*/
   width: 100px;
-  /*margin-left: 50px;*/
   margin-right: 10px;
-
   float:right;
 }

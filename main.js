@@ -40,35 +40,7 @@ function create() {
 function send(komanda, parametr) {
     var xmlhttp = getXmlHttp();
     xmlhttp.open("POST", server + EncodeStr(komanda) + '/' + EncodeStr(parametr) + '/' + EncodeStr("web"), true);
-    // xmlhttp.onreadystatechange = function() {
-    //     if (xmlhttp.readyState == 4) {
-    //         // if (xmlhttp.status == 200) {
-    //             alert(xmlhttp.responseText);
-    //         // }
-    //     }
-    // };
-
-    // xmlhttp.onload = function() {
-    //     alert(this.responseText);
-    // };
-    // xmlhttp.onerror = function() {
-    //     alert('Ошибка ' + this.status);
-    // };
     xmlhttp.send();
-
-    // return "готово";
-
-    // var client = new XMLHttpRequest();
-    // client.onload = function() {
-    //     // in case of network errors this might not give reliable results
-    //     returnStatus(this.status);
-    // };
-    //$3C$7A$61$6B$75$70$6B$61$20$F1$F0$EE$EA$3D$22$61$73$61$73$61$73$22$20$EA$EB$E8$E5$ED$F2$3D$22$61$73$61$73$61$73$61$22$20$EC$E5$ED$E5$E4$E6$E5$F0$3D$22$CA$F3$EB$E8$F3$F8$20$C5$E2$E3$E5$ED$E8$E9$20$C2$E8$EA$F2$EE$F0$EE$E2$E8$F7$22$20$EC$E0$F2$E5$F0$E8$E0$EB$3D$22$73$61$73$61$73$61$22$20$EA$EE$EB$E8$F7$E5$F1$F2$E2$EE$3D$22$61$73$61$73$61$73$22$3E$3C$2F$7A$61$6B$75$70$6B$61$3E
-    // client.open("POST", server + 'a/a/a/a');
-    // client.send('qweerty');
-
-
-
 }
 
 function getXmlHttp() {
