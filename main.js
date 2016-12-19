@@ -3,6 +3,8 @@ var charArr = ['', '', '‚', 'ѓ', '„', '…', '†', '‡', '€', '‰', '�
 // var server = 'http://192.168.1.169:8090/';
 
 var server = 'http://212.1.84.222:8090/'; //сервер куда отправдять данные
+
+//создать заявку на закупку
 function create() {
     var srok = document.getElementById('srok').value;
     var client = document.getElementById('client').value;
